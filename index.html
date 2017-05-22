@@ -1,1 +1,161 @@
-default
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prediction Model for Orange Tree Age</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Prediction Model for Orange Tree Age">
+  <meta name="author" content="">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Prediction Model for Orange Tree Age</h1>
+    <h2>May 21, 2017</h2>
+    <p><br/></p>
+  </hgroup>
+    <a href="https://github.com/greenandgold/Orange/zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>About This Project</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>In this project, Rstudio is used to make a Shiny App. </p>
+
+<p>The project is for Coursera&#39;s <a href="https://www.coursera.org/learn/data-products">Developing Data Products</a> course. </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>About The Shiny App</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The Shiny App predicts the age of an orange tree, based on the tree trunk&#39;s circumference. </p>
+
+<p>The dataset <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/Orange.html">Orange</a> in the R datasets package contains circumference measurements over time for five orange trees. Here is a look at the dataset:</p>
+
+<pre><code class="r">head(Orange)
+</code></pre>
+
+<pre><code>##   Tree  age circumference
+## 1    1  118            30
+## 2    1  484            58
+## 3    1  664            87
+## 4    1 1004           115
+## 5    1 1231           120
+## 6    1 1372           142
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>How to use the App</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>To predict the age of your orange tree, measure its circumference in millimeters. Then enter that number into the slider in the App. </p>
+
+<p>Model 3 uses the data from all five trees, shown in this plot, and is probably the best model.</p>
+
+<pre><code class="r">plot(Orange$circumference, Orange$age)
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Where to Find the App</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The App is here: (<a href="https://byanyothername.shinyapps.io/orange/">https://byanyothername.shinyapps.io/orange/</a>)</p>
+
+<p>And the code is here: (<a href="https://github.com/greenandgold/Orange">https://github.com/greenandgold/Orange</a>)</p>
+
+<p>Enjoy!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='About This Project'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='About The Shiny App'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How to use the App'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Where to Find the App'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
