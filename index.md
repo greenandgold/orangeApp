@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 github:
   user: greenandgold
-  repo: Orange
+  repo: orangeApp
 ---
 
 ## About This Project
@@ -56,15 +56,15 @@ Model 3 uses the data from all five trees, shown in this plot, and is probably t
 plot(Orange$circumference, Orange$age)
 ```
 
-![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png)
 
 ---
 
 ## Where to Find the App
 
-The App is here: (https://byanyothername.shinyapps.io/orange/)
+The App is here: (https://byanyothername.shinyapps.io/orangeapp/)
 
-And the code is here: (https://github.com/greenandgold/Orange)
+And the code is here: (https://github.com/greenandgold/orangeApp)
 
 Enjoy!
 
