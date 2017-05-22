@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 github:
   user: greenandgold
-  repo: Orange
+  repo: orangeApp
 ---
 
 ## About This Project
@@ -48,9 +48,9 @@ plot(Orange$circumference, Orange$age)
 
 ## Where to Find the App
 
-The App is here: (https://byanyothername.shinyapps.io/orange/)
+The App is here: (https://byanyothername.shinyapps.io/orangeapp/)
 
-And the code is here: (https://github.com/greenandgold/Orange)
+And the code is here: (https://github.com/greenandgold/orangeApp)
 
 Enjoy!
 
